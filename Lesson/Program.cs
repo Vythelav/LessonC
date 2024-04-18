@@ -506,16 +506,114 @@ class HelloWorld
 
 
         //40
-        Console.Write("Введите число больше 999: ");
-        int number = Convert.ToInt32(Console.ReadLine());
-        if (number > 999)
-        {
-            int ferst = number / 100;
-            int last = number % 100;
-            Console.WriteLine("Первое: " + ferst);
-            Console.WriteLine("Второе: " + last);
-        }
-        
+        //Console.Write("Введите число больше 999: ");
+        //int number = Convert.ToInt32(Console.ReadLine());
+        //if (number > 999)
+        //{
+        //    int ferst = (number / 100) % 10;
+
+        //    Console.WriteLine("Первое: " + ferst);
+
+        //}
+
+        //41
+        //Console.Write("Введите число от 1 до 365: ");
+        //int number = Convert.ToInt32(Console.ReadLine());
+
+        //int dayOne = 6;
+
+        //dayOne = (dayOne + number) % 7;
+        //Console.Write($"Номер дня недели: {dayOne}");
+
+
+        //42
+        //Console.Write("Введите двухзначное число: ");
+        //int number = Convert.ToInt32(Console.ReadLine());
+
+        //int tens = number / 10;
+        //int one = number % 10;
+
+        //int result = one * 10 + tens;
+
+        //Console.WriteLine("Вывод: " + result);
+
+
+        //43
+        //Console.Write("Введите число больше 999: ");
+        //int number = Convert.ToInt32(Console.ReadLine());
+        //if (number > 999)
+        //{
+        //    int ferst = (number / 1000) % 10;
+
+        //    Console.WriteLine("Первое: " + ferst);
+
+        //}
+
+        //44
+        //Console.Write("Введите число от 1 до 365: ");
+        //int k = Convert.ToInt32(Console.ReadLine());
+        //Console.Write("Введите число от 1 до 7: ");
+        //int n = Convert.ToInt32(Console.ReadLine());
+
+
+        //int dayOne = (k + n) % 7;
+        //Console.Write($"Номер дня недели: {dayOne}");
+
+
+
+        //45
+        //Console.Write("Введите трехзначное число: ");
+        //int number = Convert.ToInt32(Console.ReadLine());
+        //int result = number / 100;
+        //Console.WriteLine(result);
+
+
+        //46
+        //Console.Write("Введите количество секунд, прошедших с начала суток: ");
+        //int totalSeconds = Convert.ToInt32(Console.ReadLine());
+
+        //int min = totalSeconds / 60;
+
+        //Console.WriteLine($"Количество минут, прошедших с начала последнего часа: {min}");
+
+
+        //47
+        //Console.WriteLine("Введите три числа A,B,C: ");
+        //int A = Convert.ToInt32(Console.ReadLine());
+        //int B = Convert.ToInt32(Console.ReadLine());
+        //int C = Convert.ToInt32(Console.ReadLine());
+
+        //int kolKv = (A / C) * (B / C);
+        //int pl = A * B - kolKv * C * C;
+
+        //Console.WriteLine("Кол-во квадратов: " + kolKv);
+        //Console.WriteLine($"Площадь: {kolKv}");
+
+        //48
+        //Console.Write("Введите трехзначное число: ");
+        //int number = Convert.ToInt32(Console.ReadLine());
+        //int one = (number % 10);
+        //int two = (number / 10) % 10;
+        //Console.WriteLine(one);
+        //Console.WriteLine(two);
+
+
+        //49
+        //Console.Write("Введите количество секунд, прошедших с начала суток: ");
+        //int totalSeconds = Convert.ToInt32(Console.ReadLine());
+
+        //int has = totalSeconds / 3600;
+
+
+        //Console.WriteLine($"Количество полных часов, прошедших с начала последнего часа: {has}");
+
+
+        //50
+        //Console.Write("Введите номер года: ");
+        //int year = Convert.ToInt32(Console.ReadLine());
+
+        //int result = year / 100;
+        //Console.WriteLine($"Номер столетия: {result}");
 
     }
 }
