@@ -4,8 +4,10 @@ class HelloWorld
     static void Main()
     {
         //1
-        //int a = 6; 
-        //int b = 2;
+        //Console.Write("Введите число А: ");
+        //int a = Convert.ToInt32(Console.ReadLine()); 
+        //Console.Write("Введите число Б ");
+        //int b = Convert.ToInt32(Console.ReadLine());
         //Console.WriteLine("Сумма: " + (a + b));
         //Console.WriteLine();
         //Console.WriteLine("Разность: " + (a - b));
@@ -23,24 +25,31 @@ class HelloWorld
         //Console.WriteLine("S={0}  ", s);
 
         //3
-        //int a = 6;
-        //int b = 2;
+        //Console.Write("Введите число А: ");
+        //int a = Convert.ToInt32(Console.ReadLine()); 
+        //Console.Write("Введите число Б ");
+        //int b = Convert.ToInt32(Console.ReadLine());
         //double avgSquares = (Math.Pow(a, 2) + Math.Pow(b, 2)) / 2.0;
         //double avgAbs = (Math.Abs(a) + Math.Abs(b)) / 2.0;
         //Console.WriteLine("Среднее арифметическое квадратов чисел: " + avgSquares);
         //Console.WriteLine("Среднее арифметическое модулей чисел: " + avgAbs);
 
         //4
-        //double plohad = 50;
+        //Console.Write("Введите число plohad: ");
+        //int plohad = Convert.ToInt32(Console.ReadLine()); 
         //double radius = Math.Sqrt(plohad / Math.PI);
         //double dlina = 2 * Math.PI * radius;
         //Console.WriteLine("Длина окружности: " + dlina);
 
         //5
-        //double V = 20; // скорость лодки в стоячей воде
-        //double U = 5; // скорость течения реки
-        //double T1 = 2; // время движения лодки по озеру
-        //double T2 = 3; // время движения лодки против течения
+        //Console.Write("Введите число V: ");
+        //int V = Convert.ToInt32(Console.ReadLine()); 
+        //Console.Write("Введите число U ");
+        //int U = Convert.ToInt32(Console.ReadLine());
+        //Console.Write("Введите число T1: ");
+        //int T1 = Convert.ToInt32(Console.ReadLine()); 
+        //Console.Write("Введите число T2 ");
+        //int T2 = Convert.ToInt32(Console.ReadLine());
         //double distance = CalculatePathLength(V, U, T1, T2);
         //Console.WriteLine("Пройденное расстояние: " + distance + " км");
 
@@ -55,8 +64,10 @@ class HelloWorld
         //}
 
         //6
-        //double a = 8; 
-        //double b = 6; 
+        //Console.Write("Введите число А: ");
+        //int a = Convert.ToInt32(Console.ReadLine()); 
+        //Console.Write("Введите число Б ");
+        //int b = Convert.ToInt32(Console.ReadLine()); 
         //double alpha = Math.PI / 4;
         //double h = Math.Tan(alpha) * (a - b) / 2; 
         //double perimeter = a + b + 2 * Math.Sqrt(h * h + Math.Pow((a - b) / 2, 2)); 
@@ -65,10 +76,15 @@ class HelloWorld
         //Console.WriteLine("Площадь трапеции: " + area);
 
         //7
-        //double V1 = 60; 
-        //double V2 = 40; 
-        //double S = 100; 
-        //double T = 2; 
+        //Console.Write("Введите число V1: ");
+        //int V1 = Convert.ToInt32(Console.ReadLine()); 
+        //Console.Write("Введите число V2 ");
+        //int V2 = Convert.ToInt32(Console.ReadLine());
+        //Console.Write("Введите число S: ");
+        //int S = Convert.ToInt32(Console.ReadLine()); 
+        //Console.Write("Введите число T ");
+        //int T = Convert.ToInt32(Console.ReadLine());
+
         //double finalDistance = DistanceBetweenCars(V1, V2, S, T);
         //Console.WriteLine("Расстояние между автомобилями через " + T + " часов: " + finalDistance + " км");
 
@@ -80,8 +96,10 @@ class HelloWorld
         //}
 
         //8
-        //double a = 8; 
-        //double b = 6; 
+        //Console.Write("Введите число А: ");
+        //double a = Convert.ToInt32(Console.ReadLine()); 
+        //Console.Write("Введите число Б ");
+        //double b = Convert.ToInt32(Console.ReadLine());
         //double alpha = Math.PI / 4; 
         //double h = (a - b) / 2 * Math.Tan(alpha); 
 
@@ -93,10 +111,14 @@ class HelloWorld
 
 
         //9
-        //double V1 = 60;
-        //double V2 = 60;
-        //double S = 100;
-        //double T = 0.5;
+        //Console.Write("Введите число V1: ");
+        //double V1 = Convert.ToInt32(Console.ReadLine()); 
+        //Console.Write("Введите число V2 ");
+        //double V2 = Convert.ToInt32(Console.ReadLine());
+        //Console.Write("Введите число S: ");
+        //double S = Convert.ToInt32(Console.ReadLine()); 
+        //Console.Write("Введите число T ");
+        //double T = Convert.ToInt32(Console.ReadLine());
         //double finalDistance = DistanceBetweenCars(V1, V2, S, T);
         //Console.WriteLine("Расстояние между автомобилями через " + T + " часов: " + finalDistance + " км");
 
@@ -110,10 +132,15 @@ class HelloWorld
 
 
         //10
-        //double x1 = 1;
-        //double y1 = 2;
-        //double x2 = 4;
-        //double y2 = 6;
+        //Console.Write("Введите число x1: ");
+        //double x1 = Convert.ToInt32(Console.ReadLine()); 
+        //Console.Write("Введите число x2 ");
+        //double x2 = Convert.ToInt32(Console.ReadLine());
+        //Console.Write("Введите число y1: ");
+        //double y1 = Convert.ToInt32(Console.ReadLine()); 
+        //Console.Write("Введите число y2 ");
+        //double y2 = Convert.ToInt32(Console.ReadLine());
+
 
         //double distance = CalculateDistance(x1, y1, x2, y2);
 
@@ -128,8 +155,10 @@ class HelloWorld
 
 
         //11
-        //double a = 3; 
-        //double b = 4; 
+        //Console.Write("Введите число А: ");
+        //double a = Convert.ToInt32(Console.ReadLine()); 
+        //Console.Write("Введите число Б ");
+        //double b = Convert.ToInt32(Console.ReadLine()); 
 
         //double c = Math.Sqrt(a * a + b * b); 
         //double perimeter = a + b + c; 
@@ -174,7 +203,8 @@ class HelloWorld
 
 
         //13
-        //double circleArea = 50; 
+        //Console.Write("Введите число circleArea: ");
+        //double circleArea = Convert.ToInt32(Console.ReadLine()); 
         //double radius = Math.Sqrt(circleArea / Math.PI);
         //double circumference = 2 * Math.PI * radius; 
 
@@ -182,9 +212,13 @@ class HelloWorld
 
 
         //14
-        //double A = 1; 
-        //double B = -5; 
-        //double C = 6; 
+        //Console.Write("Введите число A: ");
+        //double A = Convert.ToInt32(Console.ReadLine()); 
+        //Console.Write("Введите число B ");
+        //double B = Convert.ToInt32(Console.ReadLine());
+        //Console.Write("Введите число C: ");
+        //double C = Convert.ToInt32(Console.ReadLine()); 
+
 
         //double discriminant = B * B - 4 * A * C; 
         //if (discriminant >= 0)
@@ -203,7 +237,9 @@ class HelloWorld
 
 
         //15
-        //double radius = 5; 
+        //Console.Write("Введите число radius: ");
+        //double radius = Convert.ToInt32(Console.ReadLine()); 
+
 
         //double circumference = 2 * Math.PI * radius; 
         //double area = Math.PI * Math.Pow(radius, 2); 
@@ -232,10 +268,12 @@ class HelloWorld
         //}
 
         //17
+        //Console.Write("Введите число R1: ");
+        //double R1 = Convert.ToInt32(Console.ReadLine()); 
+        //Console.Write("Введите число R2 ");
+        //double R2 = Convert.ToInt32(Console.ReadLine()); 
 
 
-        //double R1 = 3; 
-        //double R2 = 5; 
 
         //double ringArea = CalculateRingArea(R1, R2);
 
@@ -251,7 +289,8 @@ class HelloWorld
 
 
         //18
-        //int number = 1234; 
+        //Console.Write("Введите число number: ");
+        //int number = Convert.ToInt32(Console.ReadLine());  
 
         //int sum = 0;
         //sum += number / 1000 % 10; 
@@ -262,6 +301,8 @@ class HelloWorld
 
 
         //19
+        //Console.Write("Введите число a: ");
+        //double a = Convert.ToInt32(Console.ReadLine());  
         //double a = 5;
 
         //double perimeter = 3 * a; 
@@ -271,7 +312,8 @@ class HelloWorld
         //Console.WriteLine("Площадь равностороннего треугольника: " + area);
 
         //20 
-        //int number = 1234; 
+        //Console.Write("Введите число number: ");
+        //int number = Convert.ToInt32(Console.ReadLine());   
 
         //int sum = (number / 1000) % 10 + (number / 100) % 10 + (number / 10) % 10 + number % 10;
 
